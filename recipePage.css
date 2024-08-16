@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* MENU BARS */
+
+.bottomMenu{
+    background-color: #005647;
+}
+
+.flexBottomMenu{
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content:center;
+}
+
+.bottomMenuIcon{
+    height: 70px;
+}
+
+.topMenu{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.profileMenu{
+    display: flex;
+    align-items: center;
+}
+
+.profileImg{
+    max-height: 50px;
+}
+
+.topMenuIcon{
+    height: 50px;
+}
+.topNavIcons{
+    display:flex; 
+}
+
+/* Recipe Start */
+
+
+.nameRating{
+    margin-top: 110px;
+}
+.recipeName{
+    font-family: "Caladea", serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #FF560E;
+}
+.fullStars{
+    width: 32%;
+    height: 35px;
+}
+.recipePhoto{
+    height: 280px;
+    width: 100%;
+    border-radius: 10px;
+    background-image: url("./assets/index/profile/pasta1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.likeShare{
+    width: 100%;
+}
+.likeShareButtons{
+    width: 35px;
+    height: 35px;
+}
+.name{
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: #005647;
+}
+.profileLink{
+    text-decoration: none;
+}
+.name1{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.displayPic{
+    height: 60px;
+    width: 60px;
+}
+.descriptionInfo{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #005647;
+}
+.description{
+    font-family: "Caladea", serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: #FF560E;
+}
+
+
+/* aug,8 code */
+
+.marginBottom{
+    margin-bottom: 150px;
+}
+.measurement{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #005647;
+    margin: 0;
+    padding: 0;
+}
+.orangeDot{
+    height: 10px;
+    width: 10px;
+    border-radius: 100% ;
+    background-color: #FF560E;
+    margin-right: 10px;
+}
+.recipe{
+    border-bottom: 2px solid #FF560E;
+}
+.overlap{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.numberDots{
+    height: 30px;
+    width: 30px;
+    background-color: #FF560E;
+    margin-right: 15px;
+    border-radius: 100%
+}
+.recipeSteps{
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #005647;
+}
+
+
+/*  Reviews */
+
+.reviewsSection{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FF560E;
+
+}
+
+.reviewBtn{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-color:#FF560E;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 8px;
+}
+
+.profileReview{
+    display: flex;
+    align-items: center; 
+}
+
+.profileImg{
+    height: 60px;
+    margin-right: 10px;
+}
+
+.nameText{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #005647;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.dateReview{
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #005647;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    padding-right: 2px;
+}
+
+.starIcon{
+    height: 30px;
+}
+
+.flexProfile{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewText{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #FF560E;
+}
+
+.reviewFont{
+    font-family: "DM Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #005647;
+}
+
+.emojiIcon{
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Recommendation */
+
+.recommendationsSection{
+    margin-top: 20px;
+}
+
+.recipeRecom{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.recipeImg{
+    height: 200px;
+    border-radius: 8px;;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.titleRecipeFont{
+    font-family: "Caladea", serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FF560E;
+    margin-top: -15px;
+}
+
+.iconsSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailRatingIcons{
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: 14px;
+}
+
+.ratingFont{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #005647;  
+}
+
+.recomContainer{
+    width: 200px;
+    padding-right: 40px;
+}
+
+
+@media (min-width: 950px){
+    .recipePhoto{
+        height: 400px;
+    }
+    .recipeName{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px){
+    .recipeName{
+        font-size: 26px;
+    }
+}

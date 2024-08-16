@@ -1,0 +1,86 @@
+body{
+    background: rgb(255, 255, 255) !important;
+}
+
+.bottomMenu{
+    background-color: #005647;
+}
+
+.flexBottomMenu{
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content:center;
+}
+
+.bottomMenuIcon{
+    height: 70px;
+}
+
+.topMenu{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.profileMenu{
+    display: flex;
+    align-items: center;
+}
+
+.profileImg{
+    height: 50px;
+    width: 50px;
+}
+
+.topMenuIcon{
+    height: 50px;
+}
+.topNavIcons{
+    display:flex; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.searchResults{
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.welcomeText{
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #005647;
+}
+body{
+    font-family: "Caladea", serif !important;
+    color: #FF560E !important;
+}
+
+.resultsImg{
+    width: 100%;
+    border-radius: 15px !important;
+}
+
+.resultsInfo{
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+}
+
+.infoTiny{
+    font-family: "DM Sans", sans-serif !important;
+    color: #005647 !important;
+    font-size: 12px;
+}
+
+a{
+    color: #FF560E !important;
+    text-decoration: none !important;
+}

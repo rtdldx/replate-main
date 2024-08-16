@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  background-color: #ffffff;
+}
+.profile{
+  text-align: center;
+  font-size: 45px;
+  color: #FF560E;
+  font-family: profileFont;
+  margin-top: 82px;
+}
+@font-face{
+  font-family: profileFont;
+  src: url(./assets/index/profile/font/Caladea-Regular.ttf);
+}
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+}
+.userImage img {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-left: 12px;
+}
+.userInfo {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.userName {
+  font-weight: bold;
+  font-size: 24px;
+ font-family: "DM Sans", sans-serif;
+ color: #005647;
+}
+.he, .address{
+  color: #FF560E;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+}
+.twoButtons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section1 {
+  display: flex;
+}
+.recipeBooksTitle {
+  display: flex;
+  margin-left: 20px;
+}
+
+.section2 {
+
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+input[type="search"]{
+  font-size: 15px;
+  color: #005647;
+  background-color: #CDE3B6;
+  font-weight:800;
+ font-family: "DM Sans", sans-serif;
+border-radius: 20px;
+width: 300px;
+margin-left: -20px;
+margin-top: 20px;
+margin-bottom: 20px;
+height: 40px;
+border: none;
+}
+.addbutton{
+  height: 25px;
+  margin-left: 20px;
+  border: none;
+  background: transparent;
+  
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+.recipeBooksTitle {
+  display: flex;
+  margin-left: 10px;
+}
+.recipeBookContent {
+ width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: red; */
+}
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.right1,
+.right2,
+.right3 {
+  margin-left: 40px;
+}
+.foodImages {
+  width: 200px;
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.follower {
+  background-color: #ff560e;
+  color: #eaffd6;
+  border: 2px solid #ff560e;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 180px;
+}
+.following {
+  background-color: #ffffff;
+  color: #ff560e;
+  border: 2px solid #ff560e;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 180px;
+}
+.title,
+.recipesAmount {
+  font-size: 16px;
+  background-color: #eaffd6;
+  margin-bottom: 0px;
+  font-family: title;
+  color: #FF560E;
+
+
+}
+@font-face{
+  font-family: title;
+  src: url(./assets/index/profile/font/Caladea-Regular.ttf);
+}
+.recipesAmount{
+  margin-top: 0px;
+  background-color: #eaffd6;
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-family: "DM Sans", sans-serif;
+  color: #005647;
+  font-weight: 540;
+  
+}
+.recipeBookTitle{
+  font-size: 21px;
+  font-family: caladea;
+  color:#672C13;
+  margin-left: 10px;
+}
+@font-face{
+  font-family: caladea;
+  src: url(./assets/index/profile/font/Caladea-Regular.ttf);
+}
+.sortAndRecents{
+  display: flex;
+  margin-left: 200px;
+}
+.recent {
+  font-size: 13px;
+  margin-left: 10px;
+  color: #005647;
+  font-weight: bold;
+  background:transparent;
+border: none;
+height: 2px;
+font-family: "DM Sans", sans-serif;
+}
+.sortingIcon {
+  width: 25px;
+  height: 25px;
+  margin-right: 2px;
+}
+
+.row3{
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 932px) {
+  .userInfo {
+    font-size: 18px;
+  }
+  .description {
+    width: 85%;
+  }
+  .twoButtons {
+    width: 95%;
+  }
+  .search {
+    margin-left: 20px;
+  }
+}
+
+
+/* MENU BARS */
+
+.bottomMenu{
+  background-color: #005647;
+}
+
+.flexBottomMenu{
+  height: 100px;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  align-content:center;
+}
+
+.bottomMenuIcon{
+  height: 70px;
+}
+
+.topMenu{
+
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-right: 5px;
+  padding-left: 0px;
+  margin-left: 0;
+}
+
+.profileMenu{
+  display: flex;
+  align-items: center;
+}
+
+.profileImg{
+  height: 50px;
+  width: 50px;
+}
+
+.topMenuIcon{
+  height: 50px;
+}
+.topNavIcons{
+  display:flex; 
+}
+
+/* Recipe Start */
+
+.nameRating{
+  margin-top: 110px;
+}
+.recipeName{
+  font-family: "Caladea", serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: #FF560E;
+}
+.fullStars{
+  width: 32%;
+  height: 35px;
+}
+.recipePhoto{
+  height: 280px;
+  width: 100%;
+  border-radius: 10px;
+}
+.likeShare{
+  width: 100%;
+}
+.likeShareButtons{
+  width: 35px;
+  height: 35px;
+}
+.name{
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #005647;
+}
+.name1{
+  margin-left: 10px;
+  font-weight: 600;
+}
+.displayPic{
+  height: 60px;
+  width: 60px;
+}
+
+.description{
+  font-family:  "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #005647;
+}
+.topNavIcons{
+  margin-left: 300px;
+  margin-top: 0;
+}
+.searchBar{
+  background: url(./assets/index/search_green.png) no-repeat scroll;
+  background-size: 45px;
+  width:100%;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 45px;
+  padding-right: 130px;
+
+}
+.searchFont{
+  font-family: "Caladea", serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #FF560E; 
+}
+@media only screen and (min-width: 928px) and (max-width:2080px){
+  .topMenu{
+      height: 100px;
+      background-color: rgb(255, 255, 255);
+      display:flex;
+      justify-content:space-between;
+      align-items: center;
+      padding-right: 5px;
+      padding-left: 0px;
+  }
+  .section1{
+    width: 100%;
+
+    height: 200px;
+    position: relative; 
+    position: relative;  
+  }
+  .userImage img{
+    position: absolute;
+    left: 400px;
+  }
+  .userInfo{
+    position: absolute;
+    left: 480px;
+    margin-left: 100px;
+  }
+  .section2{
+    width: 100%;
+
+    height: 100px;
+    position: relative;   
+  }
+  .serach{
+    position: absolute;
+    left: 500px;
+  }
+  .addbutton{
+    position: absolute;
+    left: 800px;
+  }
+  .recipeBooksTitle{
+    width: 100%;
+/* background-color: #FF560E; */
+    height: 100px;
+    position: relative;  
+  }
+  .recipeBookTitle{
+    position: absolute;
+    left: 400px;
+  }
+  .sortAndRecents{
+    position: absolute;
+    left: 480px;
+  }
+  .recent{
+    position: absolute;
+    left: 50px;
+  }
+  .recipeBookContent{
+    width: 100%;
+    position: relative;   
+  }
+  .row1{
+    margin-top: 150px;
+    position: absolute;
+    left: 20px;
+  }
+  .row2{
+    margin-top: 150px;
+    position: absolute;
+    left: 500px;
+  }
+  .row3{
+    margin-top: 250px;
+    position: absolute;
+    left: 1000px;
+    padding-bottom: 200px;
+    top:-300px;
+
+  
+  }
+  
+
+
+
+}

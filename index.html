@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replate Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav class="container-fluid fixed-top topMenu">
+        
+            <div class="profileMenu">
+                <a href="profile.html"><img class="profileImg" src="./assets/index/profile_pic.png" alt=""></a>
+                <div class="">
+                    <p class="welcomeText">Hi, Daniel!</p>
+                    <div class="flexStatus">
+                    <p class="accountStatus">Premium subscriber</p>
+                    <img class="starIcon" src="./assets/index/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="topNavIcons">
+                <div>
+                    <img class="topMenuIcon" src="./assets/index/notification.png" alt="">
+                </div>
+                <div>
+                    <img class="topMenuIcon" src="./assets/index/menu.png" alt="">
+                </div>
+            </div>
+      
+    </nav>
+
+    <div class="container-fluid searchSection">
+        <div class="row">
+            <div class="col-12 flexSearchSection">
+            <p class="mainText">Have leftovers? <br>Try a new recipe today!</p>
+            <form class="d-flex">  
+              <input class="searchBar searchFont" type="search" placeholder="Search" aria-label="Search">  
+            </form>
+            <div class="flexBtn">
+            <a class="startCookingBtn" href="./search.html"> <button  class="startCookingFont" type="submit">Start cooking!</button></a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid filtersSection">
+        <div class="row flexFilterDropdowns">
+            <div class="col-6 dropdownLeft">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Vegetarian</a></li>
+                      <li><a class="dropdown-item" href="#">Non-veg</a></li>
+                      <li><a class="dropdown-item" href="#">Fruits</a></li>
+                      <li><a class="dropdown-item" href="#">Ovo-veg</a></li>
+                      <li><a class="dropdown-item" href="#">Pescatarian</a></li>
+                    </ul>
+                </div>                  
+            </div>
+            <div class="col-6 dropdownRight">
+                <div class="dropdown ">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Trending
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Top rated</a></li>
+                      <li><a class="dropdown-item" href="#">Most viewed</a></li>
+                      <li><a class="dropdown-item" href="#">Most recent</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 ">
+                <h1 class="filterTitle">Most popular</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid recipesSection">
+        <div class="row d-flex">
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+                <div>
+                <div> <a href="./recipePage.html"> <img class="recipeImg" src="./assets/index/recipeImg.jpg" alt=""> </a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Colorful Vegetable Salad</div></a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+                <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe2.jpg" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons " src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"> <div class="titleRecipeFont">Red Devil Pasta</div> </a>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+                <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe3.png" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Traditional Japanese Sushi</div></a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+                <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe4.png" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Sausage with Pasta</div></a>
+                </div>
+            </div>
+            </div>
+        
+
+        <div class="row ">
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe5.png" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Lemon Meat Pie</div></a>
+                </div>
+            
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <img class="recipeImg" src="./assets/index/recipe6.png" alt=""></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Bruschetta with Tomato</div></a>
+                </div>
+            </div>
+        
+        
+
+        
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe7.png" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Nutritious Vegetable Salad</div></a>
+                </div>
+            </div>
+            
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <img class="recipeImg" src="./assets/index/recipe8.png" alt=""></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Spaghetti Pomodoro</div></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex">
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <a href="./recipePage.html"> <img class="recipeImg" src="./assets/index/recipeImg.jpg" alt=""> </a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Colorful Vegetable Salad</div></a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe2.jpg" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons " src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"> <div class="titleRecipeFont">Red Devil Pasta</div> </a>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe3.png" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Traditional Japanese Sushi</div></a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe4.png" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Sausage with Pasta</div></a>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="row">
+        
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+                <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe5.png" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Lemon Meat Pie</div></a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <img class="recipeImg" src="./assets/index/recipe6.png" alt=""></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Bruschetta with Tomato</div></a>
+                </div>
+            </div>
+        
+
+        
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <a href="./recipePage.html"><img class="recipeImg" src="./assets/index/recipe7.png" alt=""></a></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Nutritious Vegetable Salad</div></a>
+            </div>
+            </div>
+            <div class="col-6 col-sm-6 col-lg-3 flexRecipe">
+            <div>
+                <div> <img class="recipeImg" src="./assets/index/recipe8.png" alt=""></div>
+                <div class="ratingIcons">
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/heart.png" alt="">
+                        <p class="ratingFont">7K</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/view.png" alt="">
+                        <p class="ratingFont">10K </p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="detailRatingIcons" src="./assets/index/time.png" alt="">
+                        <p class="ratingFont">20'</p>
+                    </div>
+                </div>
+                <a href="./recipePage.html"><div class="titleRecipeFont">Spaghetti Pomodoro</div></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid bottomMenu fixed-bottom">
+    <div class="row">
+        <div class="col-12 flexBottomMenu">
+            <a href="index.html"><img class="bottomMenuIcon" src="./assets/index/home.png" alt=""></a> 
+            <a href="search.html"><img class="bottomMenuIcon" src="./assets/index/search.png" alt=""></a> 
+            <a href="addrecipe.html"><img class="bottomMenuIcon" src="./assets/index/add.png" alt=""></a> 
+            <a href=""><img class="bottomMenuIcon" src="./assets/index/settings.png" alt=""></a> 
+            <a href="profile.html"><img class="bottomMenuIcon" src="./assets/index/profile.png" alt=""></a> 
+        </div>
+    </div>
+    </div>
+
+
+
+
+</body>
+</html>

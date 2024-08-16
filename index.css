@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.topMenu{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.profileMenu{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.profileImg{
+    height: 60px;
+    margin-right: 10px;
+}
+
+.topMenuIcon{
+    height: 50px;
+}
+
+.welcomeText{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #005647;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.flexStatus{
+    display: flex;
+    justify-content: center;
+
+}
+
+.accountStatus{
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #005647;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    padding-right: 2px;
+}
+
+.starIcon{
+    height: 20px;
+}
+
+.topNavIcons{
+    display:flex; 
+    padding-right: 12px;
+}
+
+.startCookingBtn{
+    width: 100%;
+}
+
+.searchSection{
+    background-image: url(./assets/index/banner.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 100px;
+    height: 400px;
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+
+.mainText{
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #AEFF67;
+}
+
+a {
+    text-decoration: none;
+}
+
+.searchBar{
+    background: url(./assets/index/search_green.png) no-repeat scroll;
+    background-size: 45px;
+    width:100%;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 130px;
+    
+}
+
+.dropdown:hover{
+    background-color:#FF560E;
+}
+
+.btn:hover {
+    color: white;
+    background-color:#FF560E;
+    border-color: #FF560E;
+}
+
+aria-label{
+    color: #FF560E !important;
+}
+
+.searchIcon{
+    height: 20px;
+}
+
+
+.searchFont{
+    font-family: "Caladea", serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FF560E;
+}
+
+.flexSearchSection{
+    display:flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items: center;
+    align-self: center;
+}
+
+.flexBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.startCookingFont{
+    background-color: #AEFF67;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005647;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+}
+
+.startCookingBtn{
+    border: none;
+    /* width: 60%; */
+
+    margin-top: 40px;
+}
+
+.filtersSection{
+    margin-top: 40px;
+    display:flex;
+    margin-bottom:40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.dropdown{
+   border-radius: 8px;
+   border: solid 1.5px #FF560E;
+   background-color: transparent; 
+   font-family: "DM Sans", sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   color: #FF560E;
+   padding-right: 20px;
+   width: 160px;
+}
+
+.dropdown-menu{
+    border-radius: 8px;
+    border: solid 1.5px #FF560E;
+    background-color: white;  
+
+}
+
+.dropdown-item{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #005647;
+}
+
+.btn {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #FF560E; 
+    width: 160px;  
+}
+
+
+.dropdownLeft{
+    display: flex;
+    justify-content:flex-start;  
+
+}
+
+.dropdownRight{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.flexFilterDropdowns{
+    display:flex;
+    justify-content:space-evenly; 
+    width: 100%;
+}
+
+
+.filterTitle{
+    padding-left: 20px;
+    font-family: "Caladea", serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #005647;
+
+}
+
+.recipesSection{
+    margin-top: 30px;
+    margin-bottom: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.recipeImg{
+    height: 300px;
+    border-radius: 8px;;
+}
+
+.flexRecipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.ratingIcons{
+    width: 280px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.detailRatingIcons{
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: 14px;
+}
+
+.ratingFont{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #005647;  
+}
+
+.titleRecipeFont{
+    font-family: "Caladea", serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FF560E;
+    margin-top: -15px;
+}
+
+.bottomMenu{
+    background-color: #005647;
+}
+
+.flexBottomMenu{
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content:center;
+}
+
+.bottomMenuIcon{
+    height: 70px;
+}
+
+
+@media only screen and (min-width: 430px) and (max-width:991px){
+    .topMenu{
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        padding-right: 5px;
+        padding-left: 0px;
+    }
+    
+    .profileMenu{
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+    
+    .profileImg{
+        height: 60px;
+        margin-right: 10px;
+    }
+    
+    .topMenuIcon{
+        height: 50px;
+       
+    }
+    
+    .welcomeText{
+        font-family: "DM Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #005647;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .flexStatus{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .accountStatus{
+        font-family: "DM Sans", sans-serif;
+        font-size: 10px;
+        font-weight: 300;
+        color: #005647;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-top: 2px;
+        padding-right: 2px;
+    }
+    
+    .starIcon{
+        height: 20px;
+    }
+    
+    .topNavIcons{
+        display:flex; 
+        padding-right: 0px;
+    }
+    
+    .startCookingBtn{
+        width: 100%;
+    }
+    
+    .searchSection{
+        background-image: url(./assets/index/banner.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin-top: 100px;
+        height: 400px;
+        display:flex;
+        justify-content:center; 
+        align-items: center;
+        align-self: center;
+        width: 100%;
+    }
+    
+    .mainText{
+        font-family: "Caladea", serif;
+        font-weight: 400;
+        font-size: 35px;
+        color: #AEFF67;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .searchBar{
+        background: url(./assets/index/search_green.png) no-repeat scroll;
+        background-size: 45px;
+        width:100%;
+        background-color: white;
+        border: none;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 45px;
+        padding-right: 130px;
+        
+    }
+    
+    .dropdown:hover{
+        background-color:#FF560E;
+    }
+    
+    .btn:hover {
+        color: white;
+        background-color:#FF560E;
+        border-color: #FF560E;
+    }
+    
+    aria-label{
+        color: #FF560E !important;
+    }
+    
+    .searchIcon{
+        height: 20px;
+    }
+    
+    
+    .searchFont{
+        font-family: "Caladea", serif;
+        font-weight: 300;
+        font-size: 20px;
+        color: #FF560E;
+    }
+    
+    .flexSearchSection{
+        display:flex;
+        flex-direction: column;
+        justify-content:center; 
+        align-items: center;
+        align-self: center;
+    }
+    
+    .flexBtn{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .startCookingFont{
+        background-color: #AEFF67;
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #005647;
+        border: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-radius: 8px;
+    }
+    
+    .startCookingBtn{
+        border: none;
+        /* width: 60%; */
+    
+        margin-top: 40px;
+    }
+    
+    .filtersSection{
+        margin-top: 40px;
+        display:flex;
+        margin-bottom:40px;
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+    
+    .dropdown{
+       border-radius: 8px;
+       border: solid 1.5px #FF560E;
+       background-color: transparent; 
+       font-family: "DM Sans", sans-serif;
+       font-size: 20px;
+       font-weight: 300;
+       color: #FF560E;
+       padding-right: 20px;
+       width: 160px;
+    }
+    
+    .dropdown-menu{
+        border-radius: 8px;
+        border: solid 1.5px #FF560E;
+        background-color: white;  
+    
+    }
+    
+    .dropdown-item{
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        color: #005647;
+    }
+    
+    .btn {
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        color: #FF560E; 
+        width: 160px;  
+    }
+    
+    
+    .dropdownLeft{
+        display: flex;
+        justify-content:flex-start;  
+    }
+    
+    .dropdownRight{
+        display: flex;
+        justify-content:flex-end;
+    }
+    
+    .flexFilterDropdowns{
+        display:flex;
+        justify-content:space-evenly; 
+        width: 100%;
+    }
+    
+    
+    .filterTitle{
+        padding-left: 20px;
+        font-family: "Caladea", serif;
+        font-weight: 300;
+        font-size: 30px;
+        color: #005647;
+    
+    }
+    
+    .recipesSection{
+        margin-top: 30px;
+        margin-bottom: 130px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* .flexRecipe{
+
+        align-items: start;
+       
+    } */
+    
+    .recipeImg{
+        height: 200px;
+        border-radius: 8px;;
+    }
+    
+    
+    .ratingIcons{
+        width: 180px;
+        display:flex;
+        justify-content:space-between;
+        margin-top:20px;
+    }
+    
+    .detailRatingIcons{
+        height: 18px;
+        margin-right: 10px;
+        margin-bottom: 14px;
+    }
+    
+    .ratingFont{
+        font-family: "DM Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: #005647;  
+    }
+    
+    .titleRecipeFont{
+        font-family: "Caladea", serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #FF560E;
+        margin-top: -15px;
+    }
+    
+    .bottomMenu{
+        background-color: #005647;
+    }
+    
+    .flexBottomMenu{
+        height: 100px;
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        align-content:center;
+    }
+    
+    .bottomMenuIcon{
+        height: 70px;
+    }
+    
+
+}
+
+

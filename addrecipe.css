@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ---------------------------------- UI Start --------------------------------------- */
+
+.bottomMenu{
+    background-color: #005647;
+}
+
+.flexBottomMenu{
+    height: 100px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    align-content:center;
+}
+
+.bottomMenuIcon{
+    height: 70px;
+}
+
+.topMenu{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+
+.profileMenu{
+    display: flex;
+    align-items: center;
+}
+
+.profileImg{
+    height: 50px;
+    width: 50px;
+}
+
+.topMenuIcon{
+    height: 50px;
+}
+.topNavIcons{
+    display:flex; 
+}
+
+/* ---------------------------------- UI End --------------------------------------- */
+
+/* ---------------------------------- Main Content Start --------------------------------------- */
+
+.mainText
+{
+    color: #672C13;
+    font-family: "Caladea", serif;
+}
+
+.subText
+{
+    border-color: #005647;
+    background-color: #F7FFF0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.addRecipeHeader
+{
+    color: #FF560E;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.recipeImage
+{
+    background-color:#FFA974;
+    border:#FFA974;
+    border-radius: 3%;
+    height: 200%;
+    padding: 5%;
+    margin: 5%;
+}
+
+.plusIcon
+{
+    padding: 5%;
+    margin-top: 15%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+.addImage
+{
+    color: #005647;
+    margin-left: 110px;
+    /*margin-left: 35%;*/
+}
+
+.addMoreImages
+{
+    color: #005647;
+    margin-left: 85px;
+    /*margin-left: 28%;*/
+}
+
+.addIngredient
+{
+    background-color: #005647 !important;
+    width: 100%;
+}
+
+.addStep
+{
+    background-color: #005647 !important;
+    width: 100%;
+}
+
+.editIcon
+{
+    margin-right: 2%;
+}
+
+.trashIcon
+{
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.postRecipe
+{
+    background-color: #FF560E;
+    width: 40%;
+}
+
+.submit
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+#ingredientName
+{
+    width: 70%;
+}
+
+#ingredientAmount
+{
+    width: 90%;
+}
+
+#step
+{
+    width: 80%;
+    margin-right: 5%;
+}
+
+/* ---------------------------------- Main Content End --------------------------------------- */
+
+/* ---------------------------------- Responsiveness Start --------------------------------------- */
+
+@media only screen and (min-width: 1400px) 
+{
+    .addRecipeHeader
+    {
+        color: #FF560E;
+        margin-top: 150px;
+        margin-left: 500px;
+    }
+
+    .addImage
+    {
+        color: #005647;
+        margin-left: 430px;
+    }
+
+    .addMoreImages
+    {
+        color: #005647;
+        margin-left: 400px;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1400px)
+{
+    .addRecipeHeader
+    {
+        color: #FF560E;
+        margin-top: 120px;
+        margin-left: 350px;
+    }
+
+    .addImage
+    {
+        color: #005647;
+        margin-left: 300px;
+    }
+
+    .addMoreImages
+    {
+        color: #005647;
+        margin-left: 270px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px)
+{
+    .addRecipeHeader
+    {
+        color: #FF560E;
+        margin-top: 120px;
+        margin-left: 250px;
+    }
+
+    .addImage
+    {
+        color: #005647;
+        margin-left: 220px;
+    }
+
+    .addMoreImages
+    {
+        color: #005647;
+        margin-left: 190px;
+    }
+}
+
+/* ---------------------------------- Responsiveness End --------------------------------------- */
